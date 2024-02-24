@@ -1,0 +1,21 @@
+@media (max-width:976px){
+    .join-container{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .join-right{
+        justify-content: center;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:768px){
+    .joint-desc img{
+        display: none;
+    }
+    .join-left{
+        align-items: center;
+        text-align: center;
+    }
+    
+}

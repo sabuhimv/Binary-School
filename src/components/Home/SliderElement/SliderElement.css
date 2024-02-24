@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .slider-image {
+    display: none;
+  }
+  .slider-element {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+}

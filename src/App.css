@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Readex Pro", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.my-container-fluid {
+  padding: 40px 0px;
+}
+.my-container {
+  padding: 20px 175px 40px;
+}
+.section-p1 {
+  padding: 40px 120px;
+}
+.section-m1 {
+  margin: 40px 0;
+}
+.blue-bg {
+  background-color: #4175dd;
+}
+.blue-text {
+  color: #4175dd;
+}
+.gray-text {
+  color: #e1e1e1;
+}
+.gray-text2 {
+  color: #8b8b8b;
+}
+.normal-text {
+  color: #3c3c3c;
+}
+.normal-btn {
+  background-color: transparent;
+  color: #c5ff1f;
+  border: 1.5px solid #c5ff1f;
+  border-radius: 6px;
+  padding: 12px 15px;
+  width: 140px;
+  height: 50px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  transition: 0.5s ease;
+}
+.normal-btn:hover {
+  background-color: #c5ff1f;
+  color: #000;
+}
+.green-btn {
+  background-color: #c5ff1f;
+  color: #000;
+  border-radius: 6px;
+  padding: 12px 15px;
+  width: 140px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  transition: 0.5s ease;
+}
+.green-btn:hover {
+  background-color: transparent;
+  border: 1.5px solid #c5ff1f;
+  color: #c5ff1f;
+}
+.transparent-blue {
+  background-color: transparent;
+  color: #4175dd;
+  border: 1px solid #4175dd;
+  padding: 12px 15px;
+  width: 122px;
+  height: 45px;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  transition: .6s ease;
+}
+.transparent-blue:hover{
+  background-color: #4175dd;
+  border: 1px solid #4175dd;
+  color: #fff;
+}
+.blue-btn {
+  background-color: #4175dd;
+  padding: 12px 15px;
+  width: 122px;
+  height: 45px;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  transition: .6s ease;
+}
+.blue-btn:hover{
+  background-color: transparent;
+  border: 1px solid #4175dd;
+  color: #4175dd;
+}
+@media (max-width:768px){
+  .blue-btn, .green-btn, .normal-btn{
+    padding: 10px 13px;
+    font-size: 16px;
+    width: 120px;
+    height: 45px;
+  }
+  .transparent-blue{
+    padding: 10px 13px;
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 1380px) {
+  .my-container {
+    padding: 20px 100px 40px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .my-container {
+    padding: 10px 75px 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .my-container {
+    padding: 10px 30px 20px;
+  }
+}

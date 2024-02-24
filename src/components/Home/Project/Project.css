@@ -1,0 +1,20 @@
+.project-body a{
+    color: #4175DD;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #4175DD;
+    border-radius: 25px;
+    width: 140px;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    transition: .5s ease;
+}
+.project-body a:hover{
+    background-color: #4175DD;
+    color: #fff;
+}

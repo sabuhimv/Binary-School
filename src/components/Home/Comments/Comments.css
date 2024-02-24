@@ -1,0 +1,42 @@
+@media (max-width:768px){
+    
+    .comments-title{
+        justify-content: center;
+    }
+    
+}
+
+.comments-swiper{
+    position: relative;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  border:1px solid #EFEFEF;
+  background: transparent;
+  color: #3C3C3C;
+  cursor: pointer;
+  font-size: 21px;
+  border-radius: 3px;
+  padding: 25px 16px;
+}
+
+.swiper-button-prev{
+    position: absolute;
+    top: 60%;
+    left: -5px;
+}
+
+
+.swiper-button-next{
+    position: absolute;
+    top: 60%;
+    right: -5px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    display: none;
+}
+

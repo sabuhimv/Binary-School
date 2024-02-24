@@ -1,0 +1,83 @@
+.logo {
+  padding-right: 20px;
+}
+.navbar li {
+  padding: 0 20px;
+}
+.navbar li a {
+  color: #fff;
+  transition: 0.5s ease;
+  position: relative;
+}
+.navbar li a.active::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  bottom: -9px;
+  left: 0px;
+  position: absolute;
+}
+.navbar li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  bottom: -9px;
+  left: 0px;
+  transition: 0.5s ease;
+  position: absolute;
+}
+.navbar li a:hover::after {
+  width: 100%;
+}
+.header-hamburger{
+  display: none;
+}
+@media (max-width:1064px){
+  .navbar li a{
+    display: none;
+  }
+
+  .header-right .login, .header-right span, .header-right .language {
+    display: none;
+  }
+  .header-top{
+    display: none;
+  } 
+  .header-bottom{
+    padding-top: 30px;
+  }
+  .header-hamburger{
+    display: inline-block;
+  }
+}
+
+
+.overlay{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(44,78,146);
+  height: 100vh;
+  width: 0;
+  z-index: 999;
+  overflow-x: hidden;
+  transition: width 1.3s ease;
+}
+
+.overlay-active{
+  width: 50%;
+}
+@media (max-width:768px){
+  .overlay-active{
+    width: 100%;
+  }
+}
+.nav-links li{
+  padding-bottom: 10px;
+  transition: transform 0.3s ease
+}
+.nav-links li:hover{
+  transform: translateY(-2px);
+}
